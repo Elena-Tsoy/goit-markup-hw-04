@@ -232,6 +232,34 @@ img {
   margin-right: 30px;
 }
 
+.feature-list .item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  outline: 1px solid red;
+  /* background-size: 65.32px 70px; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+}
+
+.icon-antenna::before {
+  background-image: url(../images/Vector.svg);
+  background-size: 65.32px 70px;
+}
+
+.icon-clock::before {
+  background-image: url();
+}
+
+.icon-display::before {
+  background-image: url();
+}
+
+.icon-astronaut::before {
+  background-image: url();
+}
+
 .feature-list .title {
   margin-bottom: 10px;
 
